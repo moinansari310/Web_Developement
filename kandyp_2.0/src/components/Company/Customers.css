@@ -1,0 +1,23 @@
+.brand-img{
+   margin: 20vh;
+}
+
+.customers-head{
+   margin-left: 16vh;
+   color: #333f50;
+}
+
+.c-slick{
+   height:70px;
+   width:200px;
+}
+@media screen and (max-width: 960px){
+   .brand-img{
+      margin: 5vh;
+   }
+
+   .c-slick{
+      height:70px;
+      width:150px;
+   }
+}

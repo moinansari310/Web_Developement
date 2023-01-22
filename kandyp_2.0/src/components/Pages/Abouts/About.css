@@ -1,0 +1,147 @@
+.about-container{
+    margin-top: 100px;
+}
+
+.about-head{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.misson-head{
+    position: relative;
+    left: 2%; 
+    right: 2%; 
+    top: -5%;
+}
+
+.vision-head{
+    position: relative; 
+    left: 2%; 
+    right: 2%; 
+    top: -10%;
+}
+
+.mvv-p {
+    font-size: 16px;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+.mvv-li {
+    font-size: 16px;
+    line-height: 1.4;
+    top: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.mvv-section {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-lead {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+}
+
+.mvv a {
+    color: #333f50;
+    display: block;
+}
+
+.mvv h4 {
+    font-weight: 600;
+    color: #333f50;
+    font-size: 2.3rem;
+    margin: 1rem 0 0.6rem;
+}
+
+.mvvs-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mvv {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    height: 280px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mvv:hover {
+    -webkit-box-shadow: 0 5px 10px #333f50;
+    -moz-box-shadow: 0 5px 10px #333f50;
+    box-shadow: 0 5px 10px #333f50;
+}
+
+.mvv i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+}
+
+.mvv1 i,
+.mvv1 h4,
+.mvv1 .cta {
+    color: #333f50;
+}
+
+.mvv1:hover {
+    border: 2px solid #333f50;
+}
+
+.mvv2 i,
+.mvv2 h4,
+.mvv2 .cta {
+    color: #333f50;
+}
+
+.mvv2:hover {
+    border: 2px solid #333f50;
+}
+
+.mvv3 i,
+.mvv3 h4,
+.mvv3 .cta {
+    color: #333f50;
+}
+
+.mvv3:hover {
+    border: 2px solid #333f50;
+}
+
+.mvv .cta span {
+    font-size: 0.6rem;
+}
+
+.mvv>* {
+    flex: 1 1 100%;
+}
+
+.mvv .cta {
+    align-self: flex-end;
+}
+
+@media all and (max-width:900px) {
+    .mvvs-grid {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+}
